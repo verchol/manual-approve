@@ -1,17 +1,25 @@
 {
-    "text": "Are you ready to deploy?",
+    "text": "BookShop v1.2 is deplyed to Staging and pending review",
     "attachments": [
         {
-            "text": "deploy of my SAP extentsion",
+            "text": "Realese BookShop v1.2",
             "fallback": "sorry someting wrong",
             "callback_id": "wopr_game",
             "color": "#3AA3E3",
             "attachment_type": "default",
             "actions": [
                 {
+                    "name": "test",
+                    "text": "Open Application",
+                    "type": "button",
+                    "value": "test",
+                    "url": "http://bookshopapp-codefresh.ingress.cap-k8s.cap-k8s.shoot.canary.k8s-hana.ondemand.com/app/test/flpSandbox.html#Shell-home"
+                },
+                {
                     "name": "deploy",
                     "text": "Deploy",
                     "type": "button",
+                    "style": "primary",
                     "value": "deploy",
                     "url": "https://codefresh.io"
                 },

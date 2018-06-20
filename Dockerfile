@@ -3,4 +3,4 @@ WORKDIR /src
 COPY ./package.json /src
 RUN npm install
 COPY ./ /src
-ENTRYPOINT ["node", "table.js"]
+ENTRYPOINT ["node", "index.js"]
