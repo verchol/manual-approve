@@ -13,7 +13,7 @@
                     "text": "Open Application",
                     "type": "button",
                     "value": "test",
-                    "url": "http://bookshopapp-codefresh.ingress.cap-k8s.cap-k8s.shoot.canary.k8s-hana.ondemand.com/app/test/flpSandbox.html#Shell-home"
+                    "url": "http://bookshopapp-codefresh.ingress.cap-k8s.cap-k8s.shoot.canary.k8s-hana.ondemand.com/app/test/flpSandbox.html#Books-display"
                 },
                 {
                     "name": "deploy",
