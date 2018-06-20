@@ -2,7 +2,7 @@
     "text": "Are you ready to deploy?",
     "attachments": [
         {
-            "text": "deploy is about to happend",
+            "text": "deploy of my SAP extentsion",
             "fallback": "sorry someting wrong",
             "callback_id": "wopr_game",
             "color": "#3AA3E3",
